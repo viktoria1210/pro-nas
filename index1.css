@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf7; 
+    color: #4b3b36;
+}
+header {
+    background-color: #f9d5d3; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #4b3b36;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a16b5d;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.about {
+    background-color: #fff8f6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 15px;
+    color: #6f5c55;
+}
+.footer-about {
+    display: flex;
+    align-items: center;
+    background-color: #f9d5d3;
+    padding: 20px;
+}
+
+.footer-img {
+    background-image: url('https://iprop-ua.com/tm/thumbs/qrbfv46h.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.footer-text h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-text p {
+    margin: 5px 0 0;
+    color: #4b3b36;
+}
